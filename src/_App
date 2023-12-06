@@ -1,0 +1,33 @@
+function App() {
+  //logica de la app
+  const curso = 'React desde cero'
+  const edad = 18
+
+  const persona = {
+    nombre: 'Juan',
+    apellido: 'Perez'
+  }
+
+  const sumar = (a, b) => {
+    return a + b
+  }
+
+  return (
+    <>
+      {/* Renderiza la data */}
+      <h1>{'Hola Mundo'.toUpperCase()}</h1>
+      <p>Curso: {curso}</p>
+      <p>Datos de Persona</p>
+      <ul>
+        <li>{persona.nombre}</li>
+        <li>{persona.apellido}</li>
+      </ul>
+
+      <p>Suma de 2 + 3 = {sumar(2, 3)}</p>
+
+      <p>{edad >= 18 ? 'Eres mayor de edad' : 'Eres menor de edad'}</p>
+    </>
+  )
+}
+
+export default App
