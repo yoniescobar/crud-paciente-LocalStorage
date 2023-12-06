@@ -106,7 +106,7 @@ export default function Formulario({ pacientes, setPacientes, paciente, setPacie
                         Nombre Propietario
                     </label>
                     <input
-                        id='mascota'
+                        id='propietario'
                         type='text'
                         placeholder='Nombre del Propietario'
                         className='mt-2 border-2 border-gray-300 bg-white h-10 px-2 rounded-lg text-sm focus:outline-none focus:border-primary w-full'
